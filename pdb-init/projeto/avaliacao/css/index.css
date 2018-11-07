@@ -19,6 +19,32 @@
     border-bottom: 0.3rem solid #000;
     background-color: rgba(242, 255, 252)
 }
+.botao-veja-mais {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+.botao-faca-parte {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
 .palavras-home {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
@@ -61,4 +87,36 @@
     top: 24%;
     left:65%;
 }
-.
+
+
+.vertentes {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.vertentes ul {
+    display: -webkit-flex;
+    display:         flex;
+}
+.vertentes li {
+    -webkit-flex: auto;
+            flex: auto;
+    border: .5em solid #000;
+}
+.vertentes li:first-child {
+    order: 1;
+}
+.vertentes li:nth-child(2) {
+    order: 2;
+    transform: scale(1.2);
+}
+.vertentes li:nth-child(3) {
+    order: 3;
+}
+.vertentes img {
+    width: 100%;
+    display: block;
+}
