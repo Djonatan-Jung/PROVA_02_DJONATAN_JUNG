@@ -1,43 +1,37 @@
-.titulo-principal{
-    font-size: 70px;
-    text-align: center;
-    background-color:rgba(18, 71, 123);
-    color: #FFF;
-    padding: 8rem;
-    border-bottom: 0.1rem solid #000;
-}
+
 .paragrafo{
     padding: 6rem;
-    border-bottom: 0.4rem solid #000;
+    border-bottom: 0.4rem solid transparent;
 }
 .rodape{
     padding: 3rem;
-    border-bottom: 0.2rem solid #000;
+    border-bottom: 0.2rem solid transparent;
 }
-.vertentes{
-    padding: 6rem;
-    border-bottom: 0.3rem solid #000;
-    background-color: rgba(242, 255, 252)
+
+.subtitulo-principal{
+    font-size: 50px;
+	text-align: center;
+    color: #FFF;
 }
 .botao-veja-mais {
     font-size: 1.25em;
-    background-color: #851944;
+    background-color:rgba(18, 71, 123);
     color: #FFF;
     padding: .5em;
-    border: .2em solid black;
+    border: .2em solid transparent;
     width: 40ch;
     margin: 2em auto;
     display: block;
     text-align: center;
     text-decoration: none;
-    transition: .5s;
+    transition: .2s;
 }
 .botao-faca-parte {
     font-size: 1.25em;
-    background-color: #851944;
-    color: #FFF;
+    background-color: rgb(248, 248, 248);
+    color: black;
     padding: .5em;
-    border: .2em solid black;
+    border: .2em solid transparent;
     width: 40ch;
     margin: 2em auto;
     display: block;
@@ -87,36 +81,112 @@
     top: 24%;
     left:65%;
 }
+.collaboration{
+	top:28%;
+	left:20%;
+}
+.iot{
+	top:18%;
+	left:10%;
+}
+.blockchain{
+	top:22%;
+	left:10%;
+}
+.artificial-intelligence{
+	top:5%;
+	left:20%;
+}
+.big-data{
+	top: 28%;
+	left:58%;
+}
+
+.secao-inicio {
+    padding: 2em;
+}
 
 
-.vertentes {
-    background-color: #3C1D3D;
-    border-top: .5em solid #000;
-    border-bottom: .5em solid #000;
-    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+.secao-inicio h2 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    text-shadow: 2px 2px #000;
+ 
+}
+.trabalhos {
+    background-color: #004466;
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
     background-size: 20px 20px;
     background-attachment: fixed;
 }
-.vertentes ul {
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
     display: -webkit-flex;
     display:         flex;
 }
-.vertentes li {
+.trabalhos ul {
+    display: -webkit-flex;
+    display:         flex;
+}
+.trabalhos li {
+    width: 10em;
+    height: 10em;
     -webkit-flex: auto;
             flex: auto;
-    border: .5em solid #000;
+    border: .2em solid #000;
 }
-.vertentes li:first-child {
-    order: 1;
-}
-.vertentes li:nth-child(2) {
+.trabalhos li:first-child {
     order: 2;
     transform: scale(1.2);
+    width: 10%;
 }
-.vertentes li:nth-child(3) {
+.trabalhos li:nth-child(2) {
+    order: 1;
+    height: 8%;
+}
+.trabalhos li:nth-child(3) {
     order: 3;
+    height: 5%;
 }
-.vertentes img {
+.trabalhos img {
     width: 100%;
+    height: 100%;
     display: block;
+}
+
+
+.imagens {
+    transition: box-shadow 1s, transform 1s;
+    transition-delay: 0,5s, 0s;
+}
+
+.imagens:nth-of-type(even) {
+    float: left;
+    margin-left: 0;
+}
+
+.imagens:nth-of-type(odd) {
+    float: right;
+    margin-right: 0;
+}
+
+.imagens:hover,
+.imagens:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    transition-delay: 0s, 0,5s;
+}
+
+.imagens:nth-of-type(odd):hover,
+.imagens:nth-of-type(odd):focus {
+    transform: scale(1.2) ;
+}
+
+.imagens:nth-of-type(even):hover,
+.imagens:nth-of-type(even):focus {
+    transform: scale(1.2) ;
 }

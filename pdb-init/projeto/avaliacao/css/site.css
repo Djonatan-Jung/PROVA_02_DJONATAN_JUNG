@@ -1,0 +1,19 @@
+.titulo-principal{
+	font-size: 70px;
+	text-align: center;
+    color: #FFF;
+    background-color:rgba(18, 71, 123);
+    padding: 8rem;
+    border-bottom: 0.1rem solid transparent;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 2em;
+}
+footer a {
+    color: #F99;
+}
