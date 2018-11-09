@@ -1,4 +1,7 @@
-
+p{
+    color: rgba(202, 195, 182);
+    font-size: 22px;
+}
 .paragrafo{
     padding: 6rem;
     border-bottom: 0.4rem solid transparent;
@@ -29,7 +32,7 @@
 .botao-faca-parte {
     font-size: 1.25em;
     background-color: rgb(248, 248, 248);
-    color: black;
+    color: rgb(88, 71, 123);
     padding: .5em;
     border: .2em solid transparent;
     width: 40ch;
@@ -50,48 +53,51 @@
             animation: aparece 2s;
 }
 .agile{
-    top: 8%;
+    top: 10%;
     left: 70%;
 }
 .machine-learning{
-    top:6%;
-    left:45%;
+    top:10%;
+    left:40%;
 }
 .digital{
-    top:35%;
+    top:50%;
     left:50%
 }
 .clean-code{
-    top: 25%;
-    left:24%;
+    top: 40%;
+    left:30%;
 }
 .design{
-    top: 20%;
-    left:78%;
+    top: 33%;
+    left:50%;
 }
 .design-thinking{
-    top: 24%;
-    left:65%;
+    top: 35%;
+    left: 65%;
+    font-size: 32px;
 }
 .collaboration{
-	top:28%;
+	top:50%;
 	left:20%;
 }
 .iot{
-	top:18%;
-	left:10%;
+	top:30%;
+	left:5%;
 }
 .blockchain{
-	top:22%;
-	left:10%;
+	top: 35%;
+    left: 8%;
+    font-size: 28px;
 }
 .artificial-intelligence{
-	top:5%;
-	left:20%;
+	top:10%;
+    left:10%;
+    font-size:30px;
 }
 .big-data{
-	top: 28%;
-	left:58%;
+	top:50%;
+	left:80%;
 }
 
 .secao-inicio {

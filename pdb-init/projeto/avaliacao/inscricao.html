@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Inscrição</title>
-	<link rel = "sortchout icon" href="img/favicon.png">
+	<link rel = "sortchout icon" href="img/favicon.jpg">
 	<link rel = "stylesheet" href = "css/reset.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel = "stylesheet" href ="css/inscricao.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+	<link rel = "stylesheet" href = "https://fonts.google.com/specimen/Open+Sans">
+    <link rel = "stylesheet" href = "https://fonts.google.com/specimen/Josefin+Slab">
 </head>
 <body>
 	<main>
@@ -18,13 +22,13 @@
 		<form>
 			<fieldset>
 				<legend>Faça parte desse time se inscrevendo na próxima edição do programa de bolsas.</legend>
-				<label class="com-icone" for="nome">Nome completo</label>
+				<label class="com-icone" id="nome" for="nome">Nome completo</label>
 				<input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
-				<label class="com-icone" for="email">E-mail</label>
+				<label class="com-icone" id="e-mail" for="email">E-mail</label>
 				<input id="email" type="email" name="email" required placeholder="seu@email.com">
 			</fieldset>
 			<fieldset>
-				<legend>Maior Disponibilidade</legend>
+				<legend id = "maior-disponibilidade">Maior Disponibilidade</legend>
 				<label>
 					<input type="radio" name="Maior Disponibilidade" value="manha">
 					manha
@@ -44,21 +48,21 @@
 				</label>
 			</fieldset>
 			<fieldset>
-				<legend>Interesses</legend>
+				<legend id="interesses">Interesses</legend>
 				<label>
-					<input type="radio" name="Interesses" value="IA">
+					<input type="checkbox" name="Interesses" value="IA">
 					IA
 				</label>
 				<label>						
-					<input type="radio" name="Interesses" value="Big Data">
+					<input type="checkbox" name="Interesses" value="Big Data">
 					Big data
 				</label>
 				<label>
-					<input type="radio" name="Interesses" value="Machine Learning">
+					<input type="checkbox" name="Interesses" value="Machine Learning">
 					Machine Learning
 				</label>
 				<label>
-					<input type="radio" name="Interesses" value="Outro">
+					<input type="checkbox" name="Interesses" value="Outro">
 					Outro
 					<input type="text" name="outro-Intresse">
 				</label>
@@ -72,8 +76,8 @@
 	<footer>
 		<h2 class = "rodape-titulo">Compasso Tecnologia LTDA.</h2>
 		<ul>
-			<li><a href="contato">Contato</a></li>
-			<li><a href="sobre">Sobre</a></li>
+			<li><a href="inscricao.html">Contato</a></li>
+			<li><a href="index.html">Sobre</a></li>
 			<li><a href="link">Link</a></li>
 		</ul>
 	</footer>

@@ -1,3 +1,7 @@
+
+form{
+    margin-left: 30%;
+}
 .titulo-principal{
     padding: 3rem;
     text-transform: uppercase;
@@ -18,8 +22,8 @@ input[type="email"],
 textarea {
     font-family: inherit;
     font-size: 100%;
-    padding: .25em .5em;
-    width: 100%;
+    padding: .25em .3em;
+    width: calc(60% - 3em);
     box-sizing: border-box;
     border: 1px solid #ccc;
 }
@@ -30,17 +34,11 @@ button {
     padding: .5em;
     border: .2em solid transparent;
     width: 40ch;
-    margin: 2em auto;
+    margin: 2em;
     display: block;
     text-align: center;
     text-decoration: none;
     transition: .5s;
-}
-input:invalid {
-    box-shadow: 0 0 3px red;
-}
-input:valid{
-    box-shadow: 0 0 3px green;
 }
 input:focus,
 textarea:focus {
